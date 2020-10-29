@@ -9,7 +9,6 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
- 
   /*CODIGO PARA EL BANNER E IMAGEN*/
   
   .banner-image {
@@ -143,87 +142,37 @@ font-size: 27px;
   }
   /*FIN CÓDIGO DEL MENÚ Y SUBMENÚ*/
 
-  /*CODIGO CSS CONTENIDO SECCIONES*/
+    /*CONTENIDO DE PÁGINA*/
+    .text-content h1{
+      margin: 20px;
+      color: #ff7f00;
+      text-shadow: 1px 1px 1px #191919;
+    }
+    .text-content .p1{
+      text-align: justify;
+      padding: 15px;
+      margin: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-top: 2px solid #ff7f00;
+    }
+    .text-content iframe{
+      margin-left: 250px;
+    }
+    .text-content {
+      text-align: justify;
+      padding: 15px;
+      margin: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text-content .p2{
+      text-align: justify;
+      padding: 15px;
+      margin: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-bottom: 2px solid #ff7f00;
+    }
 
-.text-content h1{
-  margin: 20px;
-  color: #ff7f00;
-  text-shadow: 1px 1px 1px #191919;
-}
-.text-content p{
-  text-align: justify;
-  padding: 15px;
-  margin: 10px;
-}
-.card{
-  position: relative; /*Texto de la caja permanezca dentro de la caja*/
-  height: 590px;
-  width: 340px;
-  display: block;
-  background: white;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-  transition: 0.4s linear;
-  margin: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  display: inline-flex;
-}
-.card:hover{
-  box-shadow: 0px 1px 35px 0px rgba(9, 20, 168, 0.3);
-}
-.card .image{
-  background: black;
-  height: 400px;
-  overflow: hidden;
-}
-.image img{
-  height: 365px;
-  width: 340px;
-  transition: 0.3s;
-}
-.card:hover .image img{
-  opacity: 1.5;
-  transform: scale(1.0);
-}
-.card .content{
-  position: relative;
-  bottom: 55px;
-  background: white;
-  width: 100%;
-  text-align: center;
-  padding: 20px 30px;
-}
-.content .title{
-  font-size: 24px;
-  font-weight: 600;
-  color: #333333;
-}
-.content .sub-title{
-  font-size: 18px;
-  font-weight: 500;
-  color: #e74c3c;
-  margin-bottom: 10px;
-}
-.bottom p{
-  color: #666666;
-  font-size: 16px;
-  text-align: justify;
-  line-height: 1.8em;
-}
-/*.bottom{
-  display: ruby;
-}*/
-.p2{
-  text-align: justify;
-  padding: 15px;
-  margin: 1px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-bottom: 2px solid #ff7f00;
-}
-
-  /*FIN CODIGO CONTENIDO SECCIONES*/
-
-  /*PIE DE PÁGINA*/
+    /*PIE DE PÁGINA*/
 footer{
   width: 100%;
   height: 100px;

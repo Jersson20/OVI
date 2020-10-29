@@ -9,7 +9,6 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
- 
   /*CODIGO PARA EL BANNER E IMAGEN*/
   
   .banner-image {
@@ -33,8 +32,8 @@
   }
   
   /*FIN CODIGO BANNER E IMAGEN*/
-  
-/*CODIGO TWITTER*/
+
+  /*CODIGO TWITTER*/
 #twitter{
   position: fixed;
   width: 70px;
@@ -143,85 +142,60 @@ font-size: 27px;
   }
   /*FIN CÓDIGO DEL MENÚ Y SUBMENÚ*/
 
-  /*CODIGO CSS CONTENIDO SECCIONES*/
-
-.text-content h1{
-  margin: 20px;
-  color: #ff7f00;
-  text-shadow: 1px 1px 1px #191919;
-}
-.text-content p{
-  text-align: justify;
-  padding: 15px;
-  margin: 10px;
-}
-.card{
-  position: relative; /*Texto de la caja permanezca dentro de la caja*/
-  height: 590px;
-  width: 340px;
-  display: block;
-  background: white;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-  transition: 0.4s linear;
-  margin: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  display: inline-flex;
-}
-.card:hover{
-  box-shadow: 0px 1px 35px 0px rgba(9, 20, 168, 0.3);
-}
-.card .image{
-  background: black;
-  height: 400px;
-  overflow: hidden;
-}
-.image img{
-  height: 365px;
-  width: 340px;
-  transition: 0.3s;
-}
-.card:hover .image img{
-  opacity: 1.5;
-  transform: scale(1.0);
-}
-.card .content{
-  position: relative;
-  bottom: 55px;
-  background: white;
-  width: 100%;
-  text-align: center;
-  padding: 20px 30px;
-}
-.content .title{
-  font-size: 24px;
-  font-weight: 600;
-  color: #333333;
-}
-.content .sub-title{
-  font-size: 18px;
-  font-weight: 500;
-  color: #e74c3c;
-  margin-bottom: 10px;
-}
-.bottom p{
-  color: #666666;
-  font-size: 16px;
-  text-align: justify;
-  line-height: 1.8em;
-}
-/*.bottom{
-  display: ruby;
-}*/
-.p2{
-  text-align: justify;
-  padding: 15px;
-  margin: 1px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-bottom: 2px solid #ff7f00;
-}
-
-  /*FIN CODIGO CONTENIDO SECCIONES*/
+  /*CODIGO CONTENIDO AUTOR*/
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px;
+  }
+  .card-container{
+    display: flex;
+    width: 900px;
+    height: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px 2px orangered;
+  }
+  .header{
+    border-right: 1px solid #ddd;
+  }
+  .descripcion{
+    background: #fbfbfb;
+    position: relative;
+  }
+  .header, .descripcion{
+    padding: 20px;
+    text-align: center;
+  }
+  .header a{
+    position: relative;
+    display: block;
+  }
+  .header img{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px black;
+    margin: 20px 30px;
+    transition: .35;
+  }
+  .header a:hover img{
+    box-shadow: 0 0 0 12px #005fbf;
+  }
+  .header h2{
+    color: black;
+  }
+  .header h4{
+    margin-bottom: 20px;
+  }
+  .descripcion h1{
+    margin: 70px 30px;
+  }
+  .descripcion .fa{
+    font-size: 25px;
+  }
 
   /*PIE DE PÁGINA*/
 footer{
@@ -235,3 +209,5 @@ footer h1{
   text-align: center;
   padding-top: 20px;
 }
+
+

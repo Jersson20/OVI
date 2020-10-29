@@ -8,7 +8,9 @@
     <meta http-equiv="content-language" content="es" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/secciones.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
@@ -22,6 +24,15 @@
     </header>
 <!--FIN CODIGO BANNER-->
 
+<!--WIDGET TWITTER-->
+<nav id="twitter">
+  <ul>
+    <li><a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+      <i class="fa fa-twitter"></i><span>Twitter</span>
+    </a></li>
+  </ul>
+</nav>
+
 <!--CODIGO HTML PARA EL MENÚ-->
   <nav class="menu-bar">
       <ul>
@@ -29,16 +40,16 @@
           <li class="active"><a href=""><i class="fa fa-book" aria-hidden="true"></i>Conceptos</a>
             <div class="sub-menu-1">
                 <ul>
-                    <li><a href="">Introducción a HTML5</a></li>
-                    <li><a href="">Secciones HTML5</a></li>
+                    <li><a href="introhtml5.html">Introducción a HTML5</a></li>
+                    <li><a href="secciones.html">Secciones HTML5</a></li>
                 </ul>
             </div>
           </li>
           <li><a href=""><i class="fa fa-folder-open" aria-hidden="true"></i>Recursos</a>
             <div class="sub-menu-1">
                 <ul>
-                    <li><a href="">Tema 1</a></li>
-                    <li><a href="">Tema 2</a></li>
+                  <li><a href="materialvideo1.html">Video HTML5: HEADER, NAV Y MAIN</a></li>
+                  <li><a href="materialvideo2.html">Video HTML5: SECTION, H1 - H6, ARTICLE, ASIDE Y FOOTER</a></li>
                 </ul>
             </div>
           </li>
@@ -50,85 +61,128 @@
                 </ul>
             </div>
           </li>
-          <li><a href=""><i class="fa fa-id-card" aria-hidden="true"></i>Autor</a></li>
+          <li><a href="autor.html"><i class="fa fa-id-card" aria-hidden="true"></i>Autor</a></li>
       </ul>
     </nav>
   <!--FIN CODIGO MENÚ-->
  
   <!--CODIGO HTML CONTENIDO SECCIONES-->
-  <h1 class="title">Secciones HTML5</h1>
-  <div class="container">
-      <div class="card">
-          <img src="img/encabezamiento.jpg" alt="">
-          <h4>Encabezamiento &lt;header&gt;</h4>
-          <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página <a id="boton1" onclick="vermas('uno', 'boton1')">Ver más</a><div id="uno" style="display: none;">(el título principal &lt;h1&gt; de 
-             la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-            El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p></div>
-      </div>
-
-      <div class="card">
-        <img src="img/navegación.jpg" alt="">
-        <h4>Encabezamiento &lt;header&gt;</h4>
-        <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página (el título principal &lt;h1&gt; de la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-          El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p>
-        <a href="">Leer más</a>
-    </div>
-
-    <div class="card">
-        <img src="img/seccion.jpg" alt="">
-        <h4>Encabezamiento &lt;header&gt;</h4>
-        <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página (el título principal &lt;h1&gt; de la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-          El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p>
-        <a href="">Leer más</a>
-    </div>
-
-    <div class="card">
-        <img src="img/articulo.jpg" alt="">
-        <h4>Encabezamiento &lt;header&gt;</h4>
-        <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página (el título principal &lt;h1&gt; de la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-          El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p>
-        <a href="">Leer más</a>
-    </div>
-
-    <div class="card">
-        <img src="img/titulo.jpg" alt="">
-        <h4>Encabezamiento &lt;header&gt;</h4>
-        <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página (el título principal &lt;h1&gt; de la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-          El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p>
-        <a href="">Leer más</a>
-    </div>
-
-    <div class="card">
-        <img src="img/aside.jpg" alt="">
-        <h4>Encabezamiento &lt;header&gt;</h4>
-        <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página (el título principal &lt;h1&gt; de la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-          El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p>
-        <a href="">Leer más</a>
-    </div>
-
-    <div class="card">
-        <img src="img/footer.jpg" alt="">
-        <h4>Encabezamiento &lt;header&gt;</h4>
-        <p>La etiqueta &lt;header&gt; está pensada para agrupar el contenido inicial de una página web. Puede contener únicamente los elementos que aparecen en las páginas de un sitio (el logotipo y un menú general, por ejemplo) o incluir también elementos particulares de la página (el título principal &lt;h1&gt; de la página, enlaces de navegación dentro de la página, texto de introducción, por ejemplo).
-          El elemento &lt;header&gt; puede estar incluido en &lt;body&gt; y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede incluir en &lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt; y entonces se entiende que es el encabezado del elemento que lo contiene.</p>
-        <a href="">Leer más</a>
-    </div>
-
+  </style>
+  <div class="text-content">
+    <h1 style="font-size:30px">Secciones en HTML5</h1>
+    <p>Una de las principales ventajas de HTML5 es la inclusión de elementos semánticos, o marcados semánticos, que nos ayudan a definir las distintas divisiones de una página web. En las versiones anteriores se solía utilizar la etiqueta &lt;div&gt;, pero actualmente es recomendado utilizar los elementos semánticos ya que describen claramente su propósito. Veamos los elementos semánticos de HTML5.</p>
   </div>
+ <div class="card">
+   <div class="image">
+     <img src="img/encabezamiento.jpg">
+   </div>
+   <div class="content">
+     <div class="title">Encabezamiento </div>
+     <div class="sub-title">&lt;Header&gt;&lt;/Header&gt;</div>
+     <div class="bottom">
+       <p>El contenido de esta etiqueta debe ser la cabecera de nuestra página donde se suele encontrar el título, el logotipo y poco más.</p>
+      </div>
+   </div>
+ </div>
 
-<script>
-    function vermas(parrafo, boton){
-        if(document.getElementById(parrafo).style.display=='block'){
-            document.getElementById(parrafo).style.display='none';
-            document.getElementById(boton).innerHTML='Ver más';
-        }else{
-            document.getElementById(parrafo).style.display='block';
-            document.getElementById(boton).innerHTML='Ocultar';
-        }
+ <div class="card">
+  <div class="image">
+    <img src="img/navegación.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Navegación</div>
+    <div class="sub-title">&lt;nav&gt;&lt;/nav&gt;</div>
+    <div class="bottom">
+      <p>Esta etiqueta sirve para delimitar el menú de la página, donde colocaremos los enlaces internos para movernos entre nuestras diferentes secciones del sitio web.</p>
+     </div>
+  </div>
+</div>
 
-    }
-</script>
-  <!--FIN CODIGO CONTENIDO SECCIONES-->
+<div class="card">
+  <div class="image">
+    <img src="img/seccion.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Sección</div>
+    <div class="sub-title">&lt;section&gt;&lt;/section&gt;</div>
+    <div class="bottom">
+      <p>La etiqueta section engloba una sección de texto, imágenes y otros elementos que guardan cierta relación entre ellos. Normalmente siempre le podremos poner un título o encabezado.</p>
+     </div>
+  </div>
+</div>
 
+<div class="card">
+  <div class="image">
+    <img src="img/articulo.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Artículo</div>
+    <div class="sub-title">&lt;article&gt;&lt;/article&gt;</div>
+    <div class="bottom">
+    <p>La etiqueta article se suele encontrar dentro de una etiqueta section y sirve para dividir y ordenar los contenidos en su interior.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image">
+    <img src="img/titulo.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Títulos</div>
+    <div class="sub-title">&lt;h1&gt;&lt;/h1&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h3&gt;&lt;/h3&gt;</div>
+    <div class="bottom">
+      <p>Estas etiquetas establecen los encabezados. Se organizan por niveles siendo H1 el más importante y H6 el menos importante.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image">
+    <img src="img/aside.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Laterales</div>
+    <div class="sub-title">&lt;aside&gt;&lt;/aside&gt;</div>
+    <div class="bottom">
+      <p>Contiene información no vital o que no está estrechamente relacionada con el contenido principal de la página como podrían ser banners de anuncios, citas o enlaces externos.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image">
+    <img src="img/footer.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Pie de página</div>
+    <div class="sub-title">&lt;footer&gt;&lt;/footer&gt;</div>
+    <div class="bottom">
+      <p>Aquí encontraríamos el código perteneciente al pie de página, donde se suelen colocar los enlaces a textos legales, el copyright, etc.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image">
+    <img src="img/main.jpg">
+  </div>
+  <div class="content">
+    <div class="title">Main</div>
+    <div class="sub-title">&lt;main&gt;&lt;/main&gt;</div>
+    <div class="bottom">
+      <p>Marca una sección como contenido principal de una página web y solo se puede utilizar una vez en un documento HTML5.</p>
+      </div>
+  </div>
+</div>
+<p class="p2">HTML5, estructura básica y elementos semánticos. (2020, 20 julio). Eniun. [Contenido de página].<br>Recuperado de&nbsp; <a href="https://www.eniun.com/html5-estructura-basica-elementos-semanticos/">https://www.eniun.com/html5-estructura-basica-elementos-semanticos/ </a> </p>
+<p class="p2">Vinkula, B. (s. f.). Estructura del código HTML5 – Anatomía de una página web.  [Contenido de página].<br>Recuperado de&nbsp; <a href="https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/#HTML">Vinkula. https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/#HTML </a> </p>
+<p class="p2">1&1 IONOS España S.L.U. (2020, 26 octubre). ¿Qué es HTML5? IONOS Digital Guide. [Contenido de página].<br>Recuperado de&nbsp; <a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-html5/">https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-html5/</a> </p>
+<p class="p2">Secciones. (s. f.). mclibre. [Archivo de imagen].<br>Recuperado de&nbsp; <a href="https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html#etiqueta-section">https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html#etiqueta-section </a> </p>
+<!--PIE DE PÁGINA-->
+<footer>
+  <h1>Creado por: Jerson Mauricio Vásquez Camargo</h1>
+  <h1>Universidad Nacional Abierta y a Distancia - UNAD(2020)</h1>
+</footer>
 </body>
 </html>
