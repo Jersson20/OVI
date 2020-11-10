@@ -34,54 +34,54 @@
   
   /*FIN CODIGO BANNER E IMAGEN*/
   
-/*CODIGO TWITTER*/
-#twitter{
-  position: fixed;
-  width: 70px;
-  margin-top: -80px;
-  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .4);
-}
-#twitter li{
-  height: 60px;
-  position: relative;
-}
-#twitter li a{
-  color: white;
-  display: block;
-  width: 100%;
-  height: 100%;
-  line-height: 60px;
-  padding-left: 25%;
-  border-bottom: 1px solid rgba(0, 0, 0, .4);
-  transition: all .3s linear;
-}
-#twitter li:nth-child(1) a{
-background: #005fbf;
-}
-#twitter li a i{
-position: absolute;
-top: 17px;
-left: 20px;
-font-size: 27px;
-}
-#twitter li a span{
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  display: none;
-}
-#twitter li a:hover{
-  z-index: 1;
-  width: 200px;
-  border-bottom: 1px solid rgba(0, 0, 0, .5) ;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3) ;
-}
-#twitter ul li a:hover span{
-  display: block;
-  padding-left: 30%;
-}
-   /*FIN CODIGO TWITTER*/
-
+   /*CODIGO TWITTER*/
+   #twitter{
+    position: fixed;
+    width: 70px;
+    margin-top: -80px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .4);
+  }
+  #twitter li{
+    height: 60px;
+    position: relative;
+  }
+  #twitter li a{
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    padding-left: 25%;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    transition: all .3s linear;
+  }
+  #twitter li:nth-child(1) a{
+  background: #005fbf;
+  }
+  #twitter li a i{
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+  }
+  #twitter li a span{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+  }
+  #twitter li a:hover{
+    z-index: 1;
+    width: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5) ;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3) ;
+  }
+  #twitter ul li a:hover span{
+    display: block;
+    padding-left: 30%;
+  }
+     /*FIN CODIGO TWITTER*/
+  
   /*CODIGO PARA EL MENÚ Y SUBMENÚ*/
   .menu-bar{
     background: #005fbf;
@@ -142,47 +142,31 @@ font-size: 27px;
     color: antiquewhite;
   }
   /*FIN CÓDIGO DEL MENÚ Y SUBMENÚ*/
-
-   /*CONTENIDO DE PÁGINA*/
-   .text-content h1{
+  
+  /*CONTENIDO */
+  .text-content h1{
     margin: 20px;
     color: #ff7f00;
     text-shadow: 1px 1px 1px #191919;
-  }
-  .text-content .p1{
-    text-align: justify;
-    padding: 15px;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-top: 2px solid #ff7f00;
-  }
-  .text-content iframe{
-    margin-left: 250px;
-  }
-  .text-content {
-    text-align: justify;
-    padding: 15px;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .text-content .p2{
-    text-align: justify;
-    padding: 15px;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 2px solid #ff7f00;
   }
 
+  /*IFRAME PDF*/
+
+  iframe{
+      margin-left: 100px;
+  }
+  
   /*PIE DE PÁGINA*/
-footer{
-  width: 100%;
-  height: 100px;
-  background: #005fbf;
-}
-footer h1{
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  padding-top: 20px;
-  color: white;
-}
+  footer{
+    width: 100%;
+    height: 100px;
+    background: #005fbf;
+  }
+  footer h1{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+  }
