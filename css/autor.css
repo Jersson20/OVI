@@ -153,10 +153,10 @@ font-size: 27px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 20px;
   }
-  .fotoperfil{
+  /*.fotoperfil{
     width:250px;
     height:250px;
-  }
+  }*/
   .card-container{
     display: flex;
     width: 900px;
