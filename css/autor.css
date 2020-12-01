@@ -180,7 +180,6 @@ font-size: 27px;
     border-radius: 50%;
     box-shadow: 0 0 0 8px black;
     margin: 20px 30px;
-    transition: .35;
   }
   .header a:hover img{
     box-shadow: 0 0 0 12px #005fbf;
